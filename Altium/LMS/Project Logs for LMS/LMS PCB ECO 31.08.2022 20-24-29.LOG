@@ -1,0 +1,94 @@
+Removed Pin From Net: NetName=USART_to_PC_TX Pin=J1-3
+Removed Pin From Net: NetName=GND Pin=J1-7
+Removed Pin From Net: NetName=servo_contorl Pin=J1-9
+Removed Pin From Net: NetName=GND Pin=R1-1
+Removed Pin From Net: NetName=servo_contorl Pin=U1-21
+Change Component Footprint: Designator=R1 Old Footprint=0603 Resistor New Footprint=0805 Resistor
+Change Component Footprint: Designator=J1 Old Footprint=MolexMicroFit 5x2 New Footprint=PBS10
+Change Component Footprint: Designator=Y1 Old Footprint=R38 New Footprint=Crystal ABM
+Change Component Comment : Designator=R1 Old Comment=3.9k New Comment=10k
+Change Component Comment : Designator=C1 Old Comment=10pF New Comment=8pF
+Change Component Comment : Designator=C2 Old Comment=10pF New Comment=8pF
+Change Component Comment : Designator=Y1 Old Comment=16MHz New Comment=32.768kHz
+Change Component Comment : Designator=J1 Old Comment=MicroFit 5x2 New Comment=PBS 10x1
+Change Component Designator: OldDesignator=U1 NewDesignator=U2
+Change Component Designator: OldDesignator=U2 NewDesignator=U1
+Change component parameters: Designator = "C1" ("C1"); Footprint = "0805 Capicator"; UniqueID = "\ZCQTHKKJ" ("\ZCQTHKKJ")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Chip&Dip"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.chipdip.ru/product0/180505270"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Murata Manufacturing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "MLCC8.0pFNPO50V5%0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "Capacitor"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C2" ("C2"); Footprint = "0805 Capicator"; UniqueID = "\EWICWYCX" ("\EWICWYCX")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Chip&Dip"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.chipdip.ru/product0/180505270"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Murata Manufacturing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "MLCC8.0pFNPO50V5%0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "Capacitor"; VariantName = "[No Variations]"
+Change component parameters: Designator = "J1" ("J1"); Footprint = "MolexMicroFit 5x2"; UniqueID = "\PWOOZJPH" ("\PWOOZJPH")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Chip&Dip"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.chipdip.ru/product/pbs-10"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Ningbo connfly electronic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "DS1023-1*10S21"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "Connector"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R1" ("R1"); Footprint = "0603 Resistor"; UniqueID = "\BFYNXFRI" ("\BFYNXFRI")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Chip&Dip"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.chipdip.ru/product0/9000079514"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Taiwan"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "RC0805FR-0710KL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "Resistor"; VariantName = "[No Variations]"
+Change component parameters: Designator = "Y1" ("Y1"); Footprint = "R38"; UniqueID = "\ERUECJXN" ("\ERUECJXN")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Chip&Dip"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.chipdip.ru/product/32.768-khz-smd-8mmx3.8mm-6-pf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Seiko"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "9000417960"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "Crystal"; VariantName = "[No Variations]"
+Added Component: Designator=Q1(SOT-23)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Chip&Dip"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.chipdip.ru/product/irlml2246trpbf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "DataSheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.farnell.com/datasheets/1911921.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Infineon Technologies"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "IRLML2246TRPBF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Transistor"; VariantName = "[No Variations]"
+Added Component: Designator=R2(0805 Resistor)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Chip&Dip"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.chipdip.ru/product0/914213016"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Taiwan"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RC0805FK-07200KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Resistor"; VariantName = "[No Variations]"
+Added Component: Designator=R3(0805 Resistor)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Chip&Dip"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.chipdip.ru/product0/9000079500"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Taiwan"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "RC0805FR-073K9L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Resistor"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3.3V Pin=J1-3
+Added Pin To Net: NetName=USART_to_PC_TX Pin=J1-4
+Added Pin To Net: NetName=GND Pin=J1-6
+Added Pin To Net: NetName=GND Pin=J1-10
+Added Pin To Net: NetName=+3.3V Pin=Q1-3
+Added Pin To Net: NetName=+3.3V Pin=R1-2
+Added Pin To Net: NetName=servo_contorl Pin=R2-1
+Added Pin To Net: NetName=GND Pin=R3-1
+Added Pin To Net: NetName=servo_contorl Pin=U2-29
+Added Pin To Net: NetName=+7.4V Pin=J1-1
+Added Pin To Net: NetName=+7.4V Pin=J1-7
+Added Pin To Net: NetName=+7.4V Pin=U1-3
+Added Net: Name=+7.4V
+Added Pin To Net: NetName=NetQ1_1 Pin=Q1-1
+Added Pin To Net: NetName=NetQ1_1 Pin=R1-1
+Added Pin To Net: NetName=NetQ1_1 Pin=R2-2
+Added Net: Name=NetQ1_1
+Added Pin To Net: NetName=NetR3_2 Pin=R3-2
+Added Pin To Net: NetName=NetR3_2 Pin=U2-44
+Added Net: Name=NetR3_2
+Added Pin To Net: NetName=servo_contorl_PDM Pin=J1-9
+Added Pin To Net: NetName=servo_contorl_PDM Pin=Q1-2
+Added Net: Name=servo_contorl_PDM
+Added Pin To Net: NetName=USART_to_PC_RX Pin=J1-5
+Added Pin To Net: NetName=USART_to_PC_RX Pin=U2-31
+Added Net: Name=USART_to_PC_RX
+Added Member To Class: ClassName=LMS Member=Component Q1 MOSFET-P
+Added Member To Class: ClassName=LMS Member=Component R2 200k
+Added Member To Class: ClassName=LMS Member=Component R3 3.9k
